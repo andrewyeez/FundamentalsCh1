@@ -39,6 +39,22 @@ public class Ch1 {
                 + "use recursion.";
         System.out.println(Q1);
         
+        String A1 = "Data abstraction is used to make something hidden from the"
+                + " parent. For example, an abstract class does not need to have"
+                + " an abstract method but it does need to be inherited to be used."
+                + " The abstract class cannot be instantiated and therefore must"
+                + " first be inherited by another class to be able to gain"
+                + " access to the abstract class fields and methods. Abstraction"
+                + " requires the use of inheritance and inheritance is a property"
+                + " of OOP. ";
+        
+        String A2 = "Type casting is changing the type of a variable into "
+                + " another type assigned to a new variable. For example. "
+                + " int x = 1; long y = x. Type casting/conversion mean the same"
+                + " thing. There are two types of casting a data and thats explicit"
+                + " and implicit. "
+                + " Implicit: int x = 1; long y = x;"
+                + " Explicit: long y = 1; int x = (int) y";
         
     }
     
