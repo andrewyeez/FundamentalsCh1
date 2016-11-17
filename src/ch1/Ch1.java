@@ -37,7 +37,6 @@ public class Ch1 {
                 + "What does a void static method do ?";
         String Q9 = "Explain what recursion is and give an example of when to "
                 + "use recursion.";
-        System.out.println(Q1);
         
         String A1 = "Data abstraction is used to make something hidden from the"
                 + " parent. For example, an abstract class does not need to have"
@@ -56,6 +55,40 @@ public class Ch1 {
                 + " Implicit: int x = 1; long y = x;"
                 + " Explicit: long y = 1; int x = (int) y";
         
+        // A3
+        // As we see from the examples the variables that have 
+        // --/++ BEFORE the variable will be evaluated WITH the subtract 1 or add 1.
+        //       The subtract 1 or add 1 will be executed before it runs the variable x.
+        // --/++ AFTER the variable will be evaluated WITHOUT the subtract 1 or add 1.
+        //       The subtract 1 or add 1 will be executed after it runs the variable y.
+        int x = 10;
+        int y = 0;
+        
+        int minusX = --x;
+        int plusX = ++x;
+        int Yminus = y--;
+        int Yplus = y++;
+        
+        System.out.println("  x: " + x);
+        System.out.println("--x: " + minusX);
+        System.out.println("++x: " + plusX);
+        System.out.println("  y: " + y);
+        System.out.println("y--: " + Yminus);
+        System.out.println("y++: " + Yplus);
+        
+        String line = "-------------------------------------------------------";
+        System.out.println(line);
+        
+        // A4
+        int e = 0;
+        int ee = e + 1;
+        int ex = (e += 1);
+        int ey = e++;
+        
+        System.out.println("     e: " + e);
+        System.out.println(" e + 1: " + ee);
+        System.out.println("e += 1: " + ex);
+        System.out.println("   e++: " + ey);
     }
     
 }
