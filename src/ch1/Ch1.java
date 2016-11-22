@@ -5,6 +5,8 @@
  */
 package ch1;
 
+import java.util.Random;
+
 /**
  *
  * @author andrewyee
@@ -61,34 +63,52 @@ public class Ch1 {
         //       The subtract 1 or add 1 will be executed before it runs the variable x.
         // --/++ AFTER the variable will be evaluated WITHOUT the subtract 1 or add 1.
         //       The subtract 1 or add 1 will be executed after it runs the variable y.
-        int x = 10;
-        int y = 0;
-        
-        int minusX = --x;
-        int plusX = ++x;
-        int Yminus = y--;
-        int Yplus = y++;
-        
-        System.out.println("  x: " + x);
-        System.out.println("--x: " + minusX);
-        System.out.println("++x: " + plusX);
-        System.out.println("  y: " + y);
-        System.out.println("y--: " + Yminus);
-        System.out.println("y++: " + Yplus);
-        
-        String line = "-------------------------------------------------------";
-        System.out.println(line);
+//        int x = 10;
+//        int y = 0;
+//        
+//        int minusX = --x;
+//        int plusX = ++x;
+//        int Yminus = y--;
+//        int Yplus = y++;
+//        
+//        System.out.println("  x: " + x);
+//        System.out.println("--x: " + minusX);
+//        System.out.println("++x: " + plusX);
+//        System.out.println("  y: " + y);
+//        System.out.println("y--: " + Yminus);
+//        System.out.println("y++: " + Yplus);
+//        
+//        String line = "-------------------------------------------------------";
+//        System.out.println(line);
         
         // A4
-        int e = 0;
-        int ee = e + 1;
-        int ex = (e += 1);
-        int ey = e++;
+//        int e = 0;
+//        int ee = e + 1;
+//        int ex = (e += 1);
+//        int ey = e++;
+//        
+//        System.out.println("     e: " + e);
+//        System.out.println(" e + 1: " + ee);
+//        System.out.println("e += 1: " + ex);
+//        System.out.println("   e++: " + ey);
         
-        System.out.println("     e: " + e);
-        System.out.println(" e + 1: " + ee);
-        System.out.println("e += 1: " + ex);
-        System.out.println("   e++: " + ey);
+        // A5
+        Random rand = new Random();
+        int row = 3; // 3 rows and ?? columns
+        int col = 3;
+        int arr[][] = new int[row][];
+        for(int i = 0; i < row; i++){
+            for(int y = 0; y < col; y++){
+                // arr[i][y] = 1;
+            }
+        }
+        
+        // lets now output our 2 dimensional jagged array
+//        for(int i = 0; i < row; i++){
+//            for(int y = 0; y <= arr[row].length; y++){
+//                System.out.println("arr["+row+"]["+y+"]: " + arr[row][y]);
+//            }
+//        }  
     }
     
 }
