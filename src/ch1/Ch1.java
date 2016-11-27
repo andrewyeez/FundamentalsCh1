@@ -115,9 +115,16 @@ public class Ch1 {
         
         // By default Java is always pass by value including the parameters
         // used in public static main! Pass by reference vs pass by value.
-        // reference means you are handling the address/location and not the
-        // actual value and pass by value is when you are actually handling
-        // the value itself.
+        // reference means you are handling the address/location of the actual
+        // value while pass by value means you are given an exact copy of the
+        // actual value.
+        
+        // A7
+        
+        // We use void methods when we dont want to return anything with our 
+        // method. A void static method by definition is just a method that
+        // can be instantiated without creating an instance of the class and
+        // does not return anything.
         
     }
     
