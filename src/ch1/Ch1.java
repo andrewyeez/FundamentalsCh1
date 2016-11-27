@@ -27,9 +27,7 @@ public class Ch1 {
         String Q3 = "Explain the difference between i++/i-- and ++i/--i.";
         String Q4 = "Give three variations of declaring and assigning an "
                 + "integer variable and adding 3 (int).";
-        String Q5 = "Create a jagged/ragged 2D integer array and populate them."
-                + "Create a new array that will have the reverse the order "
-                + "of the initial jagged/ragged array.";
+        String Q5 = "Create a jagged/ragged 2D integer array and populate them.";
         String Q6 = "Explain the difference between pass by value and pass by "
                 + "reference. Which one does "
                 + "public static void main(String[] args) use ? ";
@@ -93,22 +91,28 @@ public class Ch1 {
 //        System.out.println("   e++: " + ey);
         
         // A5
-        Random rand = new Random();
-        int row = 3; // 3 rows and ?? columns
-        int col = 3;
-        int arr[][] = new int[row][];
-        for(int i = 0; i < row; i++){
-            for(int y = 0; y < col; y++){
-                // arr[i][y] = 1;
-            }
-        }
-        
-        // lets now output our 2 dimensional jagged array
-//        for(int i = 0; i < row; i++){
-//            for(int y = 0; y <= arr[row].length; y++){
-//                System.out.println("arr["+row+"]["+y+"]: " + arr[row][y]);
+//        Random rand = new Random();
+//        int row = 3; // 3 rows and ?? columns
+//        int arr[][] = new int[row][];
+//        for(int i = 0; i < arr.length; i++){
+//            // new col value
+//            int col = rand.nextInt(5) + 1;
+//            arr[i] = new int[col];
+//            for(int y = 0; y < arr[i].length; y++){
+//                arr[i][y] = rand.nextInt(10) + 1;;
+//            }
+//        }
+//        
+//        // lets now output our 2 dimensional jagged array
+//        for(int i = 0; i < arr.length; i++){
+//            System.out.println("____Row #" + i + "___");
+//            for(int y = 0; y < arr[i].length; y++){
+//                System.out.println("arr["+i+"]["+y+"]: " + arr[i][y]);
 //            }
 //        }  
+        
+        // A6
+        
     }
     
 }
