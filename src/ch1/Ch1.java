@@ -113,6 +113,12 @@ public class Ch1 {
         
         // A6
         
+        // By default Java is always pass by value including the parameters
+        // used in public static main! Pass by reference vs pass by value.
+        // reference means you are handling the address/location and not the
+        // actual value and pass by value is when you are actually handling
+        // the value itself.
+        
     }
     
 }
